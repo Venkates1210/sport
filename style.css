@@ -1,0 +1,73 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the featured sport section */
+.featured-sport {
+    text-align: center;
+    padding: 20px;
+}
+
+.featured-sport img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the latest news section */
+.latest-news {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.news-article {
+    text-align: center;
+}
+
+.news-article img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
